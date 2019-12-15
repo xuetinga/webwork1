@@ -29,8 +29,8 @@ ul,li{
 	height: 50px;
 	text-align: center;
 	cursor: pointer;/*移上去光标不同*/
-	color:#000;
-	top: 175px;
+	color:#fff;
+	top: 140px;
 	line-height: 50px;
 	background:rgb(255,0,0);
 	font-size: 30px;
