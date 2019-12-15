@@ -18,6 +18,7 @@ setInterval(function(){
 	    warning.style.marginLeft = (parseInt(warning.style.marginLeft)-1) +"px";
 	}
 },10);
+
 //左右箭头
 function next(){
 	if (!isMoving) {
@@ -48,7 +49,8 @@ function prev(){
 			isMoving = false;
 	});
 }
-var timer = setInterval(next,2000);
+var timer = setInterval(next,3000);
+
 //鼠标划上去的时候
 box.onmouseover = function () {
 	animate(left,{opacity:50});

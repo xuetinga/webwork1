@@ -36,5 +36,3 @@ function animate(obj,json,callback){
 		}
 	}, 30)
 }
-
-
